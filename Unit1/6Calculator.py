@@ -1,0 +1,33 @@
+print("Welcome to the Calculator!")
+print("Pick an operation")
+user_operation = input("->")
+if user_operation == "+":
+    print("Addition picked")
+    print("What is your first number?")
+    user_firstchoice = input("->")
+    print("What is your second number?")
+    user_secondchoice = input("->")
+    print(float(user_firstchoice)+float(user_secondchoice))
+elif user_operation == "-":
+    print("Subtraction picked")
+    print("What is your first number?")
+    user_firstchoice = input("->")
+    print("What is your second number?")
+    user_secondchoice = input("->")
+    print(float(user_firstchoice)-float(user_secondchoice))
+elif user_operation == "*":
+    print("Multiplication picked")
+    print("What is your first number?")
+    user_firstchoice = input("->")
+    print("What is your second number?")
+    user_secondchoice = input("->")
+    print(float(user_firstchoice)*float(user_secondchoice))
+elif user_operation == "/":
+    print("Division picked")
+    print("What is your first number?")
+    user_firstchoice = input("->")
+    print("What is your second number?")
+    user_secondchoice = input("->")
+    print(float(user_firstchoice)/float(user_secondchoice))
+else:
+    print("Invalid Operation. Try Again.")
